@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int score = sc.nextInt();
+
+        System.out.println(
+            score >= 80
+            ? "pass"
+            : 80 - score + " more score"
+        );
+    }
+}
